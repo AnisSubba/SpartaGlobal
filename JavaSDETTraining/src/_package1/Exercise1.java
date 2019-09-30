@@ -16,7 +16,9 @@ public class Exercise1 {
         myArray[6] = 'r';
         myArray[7] = 'd';
 
-        char[] firstArray = Arrays.copyOfRange(myArray, 0, myArray.length);
+        char[] firstArray = new char[myArray.length];
+        System.arraycopy(myArray, 0, firstArray, 0, myArray.length);
+//        char[] firstArray = Arrays.copyOfRange(myArray, 0, myArray.length);
 
         for (char i = 4; i < firstArray.length; i++){
             System.out.println(firstArray[i]);}
