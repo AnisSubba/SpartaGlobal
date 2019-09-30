@@ -24,7 +24,7 @@ public class VariablesDemo {
 
         //below is example of local variable
         //it inside the static void main, you state the message and print it
-        String myMessage = "hi how you doing.";
+        String myMessage = "hi";
         System.out.println(myMessage);
 
 
