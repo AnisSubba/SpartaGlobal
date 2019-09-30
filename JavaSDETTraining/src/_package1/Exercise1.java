@@ -16,12 +16,20 @@ public class Exercise1 {
         myArray[6] = 'r';
         myArray[7] = 'd';
 
-        char[] firstArray = new char[myArray.length];
-        System.arraycopy(myArray, 0, firstArray, 0, myArray.length);
-//        char[] firstArray = Arrays.copyOfRange(myArray, 0, myArray.length);
+        //my way of completing the code. more understanding needed with arraycopy and array.copyOfRange
+//        char[] firstArray = new char[myArray.length];
+//        System.arraycopy(myArray, 0, firstArray, 0, myArray.length);
 
-        for (char i = 4; i < firstArray.length; i++){
-            System.out.println(firstArray[i]);}
+//        for (char i = 4; i < firstArray.length; i++){
+//            System.out.println(firstArray[i]);}
+
+        // Leo way of completing the code.
+        char[] firstArray = Arrays.copyOfRange(myArray, 4, 8);
+        System.out.println(new String(firstArray));
+
+        char[] secondArray = new char[myArray.length];
+        System.arraycopy(myArray,4, secondArray, 0, myArray.length-4);
+        System.out.println(new String(secondArray));
 
     }
 }
