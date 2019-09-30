@@ -18,6 +18,8 @@ public class ArrayDemo2 {
         myArray[8] = 900;
         myArray[9] = 1000;
 
+
+
 // .length will give the length which already has been set by myArray
         int[] mySecondArray = new int[myArray.length];
         System.arraycopy(myArray, 0, mySecondArray, 0, myArray.length);
