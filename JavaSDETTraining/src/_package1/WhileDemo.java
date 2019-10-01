@@ -6,7 +6,7 @@ public class WhileDemo {
         while (count < 11) {
             System.out.println("Count is: " + count);
             count++;
-            // will increment the count(1) by adding 1.
+            // will increment the count(1) by adding 1
         }
     }
 }
