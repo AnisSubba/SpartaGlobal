@@ -1,6 +1,5 @@
 package _package2;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class GCDWithModular {
