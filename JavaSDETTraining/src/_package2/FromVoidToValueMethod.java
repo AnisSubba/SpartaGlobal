@@ -18,6 +18,5 @@ public class FromVoidToValueMethod {
         // since it is value you can insert it to the out.println method
         System.out.println("the grade is:" + getGrade(60.5));
         System.out.println("The grade is:" + getGrade(85.2));
-
     }
 }
