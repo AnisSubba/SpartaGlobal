@@ -1,6 +1,6 @@
 package _package3;
 
-public class EnumarateEachElement {
+public class EnumerateEachElement {
     public static void main(String[] args) {
         // declare and create a array
         double[] myList = new double[5];
