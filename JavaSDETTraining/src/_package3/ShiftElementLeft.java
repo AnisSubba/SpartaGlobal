@@ -17,6 +17,7 @@ public class ShiftElementLeft {
         myNumbers[myNumbers.length -1] = temp;
 
         System.out.println(Arrays.toString(myNumbers));
+
     }
 
 }
