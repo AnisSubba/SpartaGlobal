@@ -4,7 +4,7 @@ public class ArrayDemo {
 
     public static void main (String[] args){
 
-        // declare an array of intergers
+        // declare an array of integers
         int[] myArray;
 
         // Create an array with new operator
